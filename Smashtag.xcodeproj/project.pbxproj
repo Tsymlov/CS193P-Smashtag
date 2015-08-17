@@ -77,11 +77,8 @@
 		3D08DE621B81D012007CC809 /* Smashtag */ = {
 			isa = PBXGroup;
 			children = (
-				3D08DE651B81D012007CC809 /* AppDelegate.swift */,
 				3D08DE671B81D012007CC809 /* ViewController.swift */,
 				3D08DE691B81D012007CC809 /* Main.storyboard */,
-				3D08DE6C1B81D012007CC809 /* Images.xcassets */,
-				3D08DE6E1B81D012007CC809 /* LaunchScreen.xib */,
 				3D08DE631B81D012007CC809 /* Supporting Files */,
 			);
 			path = Smashtag;
@@ -90,6 +87,9 @@
 		3D08DE631B81D012007CC809 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D08DE6E1B81D012007CC809 /* LaunchScreen.xib */,
+				3D08DE6C1B81D012007CC809 /* Images.xcassets */,
+				3D08DE651B81D012007CC809 /* AppDelegate.swift */,
 				3D08DE641B81D012007CC809 /* Info.plist */,
 			);
 			name = "Supporting Files";
