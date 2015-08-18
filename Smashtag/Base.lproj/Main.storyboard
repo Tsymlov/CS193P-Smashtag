@@ -70,6 +70,12 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="S1a-fd-f39"/>
+                    <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="atE-ZX-r5G">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <connections>
+                            <action selector="refresh:" destination="iqK-fO-6HZ" eventType="valueChanged" id="Ns3-yc-TG6"/>
+                        </connections>
+                    </refreshControl>
                     <connections>
                         <outlet property="searchTextField" destination="5o9-eY-xm3" id="Ivd-Gg-Iei"/>
                     </connections>
